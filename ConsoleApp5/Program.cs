@@ -1,4 +1,4 @@
-﻿double x0, xn, xnp1, e, m;
+﻿double x0, xn, xnp1, e, m,t;
 m = 1.3;
 e = 0.001;
 x0 = 2.8;
@@ -19,3 +19,4 @@ while (!(xnp1 < Math.Pow(10, -3)))
 Console.WriteLine();
 Console.WriteLine(xn);
 Console.WriteLine(xnp1);
+//BTW
